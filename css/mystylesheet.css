@@ -1,0 +1,165 @@
+input {
+  padding: 10px;
+  margin: 9px;
+  width: 37%;
+  border-radius: 5px;
+  border-right: 0;
+  border-left: 0;
+  font-size: large;
+  border-top: 0;
+  outline: none;
+  background: none;
+  border-bottom-color: #232323;
+}
+
+::placeholder {
+  color: black;
+  
+}
+
+#myvote {
+  border: 2px solid;
+  padding: 8px;
+  margin: 11px;
+  font-size: initial;
+  width: 20%;
+  border-radius: 5px;
+  border-right: 0;
+  border-left: 0;
+  border-top: 1;
+  outline: none;
+  background: none;
+  border-top-color: #232323;
+  border-bottom-color: #232323;
+
+}
+
+option {
+  background-color: #dbdbdb;
+}
+
+select {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#upload {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+#headerSection {
+  padding: 2px;
+  font-family: Cursive;
+
+}
+
+#loginSection {
+  padding: 5px;
+  border: 0px solid white;
+  border-radius: 15px;
+  border-radius: 10% / 50%;
+  position: absolute;
+  box-shadow: 2px 10px 36px #000000;
+  width: 30%;
+  left: 35%;
+}
+
+body {
+  /* background-color: #b8e994; */
+  background-image: url("vote corona.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+#number {
+  border-radius: 3px;
+}
+
+#password {
+  border-radius: 3px;
+
+}
+
+#loginbtn {
+  padding: 8px;
+  margin: 5px;
+  font-size: 19px;
+  background-color: #435663;
+  color: white;
+  border-radius: 5px;
+  width: 13%;
+  height: 4%;
+  min-width: 80px;
+  max-width: 300px;
+}
+
+#loginbtn:hover {
+  background-color: #95c9ec;
+  color: #000000;
+}
+
+#reglink {
+  padding: 5px;
+  font-size: 15px;
+  background-color: #61839b;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#mainSection {
+  padding: 10px;
+}
+
+#profileSection {
+  width: 30%;
+  float: left;
+  background-color: white;
+  padding: 20px;
+}
+
+#groupSection {
+  width: 60%;
+  float: right;
+  background-color: white;
+  padding: 20px;
+}
+
+#back-button {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+}
+
+#logout-button {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+}
+
+#logout-button:hover {
+  background-color: #95c9ec;
+  color: #000000;
+}
+
+#newUser {
+  font-weight: bold;
+}

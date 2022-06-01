@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Online voting system - Home</title>
+        <link rel="stylesheet" href="css/mystylesheet.css" >
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-zrnmn8R8KkWl12rAZFt4yKjxplaDaT7/EUkKm7AovijfrQItFWR7O/JJn4DAa/gx" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="/fonts/fontawesome-free-5.3.1-web/css/all.css"> -->
+    </head>
+    <body>
+        
+            <center>
+            <div id="headerSection">
+            <h1>Online Voting System</h1>  
+            </div>
+            <hr>
+
+            <div id="loginSection">
+                <h2>Login</h2>
+ 
+                <form  action="api/login.php" method="POST" >
+                    <i class="fas fa-phone fa-lg"></i>
+                    <input type="number" name="mob" class="back" placeholder="Enter mobile"  required><br><br>
+                    <i class="fa fa-lock fa-lg"></i>
+                    <input type="password" name="pass" class="back" placeholder="Enter password" required><br><br>
+                    <select name="role" class="back" id="myvote">
+                        <option value="1">Voter</option>
+                        <option value="2">Group</option>
+                    </select><br><br>                  
+                    <button id="loginbtn" type="submit" name="loginbtn">Login</button><br><br>
+                    <div id= "newUser">
+                        New user? <a href="routes/register.php">Register here</a>
+                    </div>
+                </form>
+            </div>
+
+            </center> 
+    </body>
+</html>
